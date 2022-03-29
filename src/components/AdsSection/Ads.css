@@ -1,0 +1,37 @@
+.ads-img {
+  background-image: url(../../assets/images/ImgAds.png);
+  height: 300px;
+  width: 100%px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  display: flex;
+    align-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+.ads-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #ffffff;
+}
+.ads-btn {
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 2px;
+  width: 232px;
+  height: 53px;
+}
+.ads-contact {
+    font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}

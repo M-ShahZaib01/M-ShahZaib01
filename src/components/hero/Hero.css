@@ -1,0 +1,109 @@
+.hero-container img {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.hero-container {
+  position: relative;
+  overflow: hidden;
+}
+.hero-container .hero-title {
+  position: absolute;
+  top: 36%;
+  left: 10%;
+  width: fit-content;
+  height: fit-content;
+}
+.hero-container .hero-title p {
+  font-size: 5vw;
+  font-weight: 700;
+  line-height: 70px;
+}
+.hero-nav {
+  width: 29%;
+  height: 30%;
+  background-color: var(--primary);
+  position: absolute;
+  right: 0;
+  bottom: -2px;
+}
+.hero-nav-title {
+  text-align: center;
+  font-size: 2vw;
+  padding: 0.5rem 0 0 0;
+  font-weight: 600;
+}
+.hero-nav-subtitle {
+  text-align: center;
+  font-size: 2vw;
+  line-height: 100%;
+  padding-top: 0.5em;
+}
+.btn-section {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: white;
+}
+.hero-nav-btn {
+  font-size: 1.3vw;
+  width: 49.8%;
+  padding: 0.3rem;
+  color: white;
+  position: inherit;
+  background-color: var(--neutral);
+  border-style: none;
+  outline: none;
+}
+.hero-nav-btn1 {
+  bottom: 3px;
+  left: 0;
+  border-right: 1px solid white;
+}
+.hero-nav-btn2 {
+  bottom: 3px;
+  right: 0;
+}
+.arrowSvg {
+  height: 1rem !important;
+  width: 2rem !important;
+}
+@media screen and (max-width: 714px) {
+  .hero-nav-subtitle {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .arrowSvg {
+    height: 0.5rem !important;
+    width: 1rem !important;
+  }
+  .hero-nav {
+    width: 31%;
+    height: 38%;
+  }
+}
+@media screen and (max-width: 1697px) {
+  .hero-title p {
+    line-height: 104px;
+  }
+}
+@media screen and (max-width: 944px) {
+  .hero-title p {
+    line-height: 39px !important;
+  }
+  .hero-nav {
+    width: 30%;
+    height: 36%;
+  }
+}
+@media screen and (max-width: 398px) {
+  .hero-title p {
+    line-height: 21px !important;
+  }
+  .hero-nav-btn {
+    padding: 0.02rem;
+  }
+  
+}

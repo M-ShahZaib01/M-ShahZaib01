@@ -1,0 +1,32 @@
+@media screen and (max-width:1199px) {
+.about-details {
+    background-color: var(--primary);
+    width: 51%;
+    height: 375px;
+    box-shadow: 0px 20px 24px -4px rgba(17, 24, 39, 0.1), 0px 8px 8px -4px rgba(17, 24, 39, 0.04);
+    border-radius: 2px;
+    padding: 1rem 2rem;
+    position: absolute;
+    left: 439px;
+    top: 75px;
+    right: -12px;
+  }
+  .about-details p {
+    margin-top: 1rem;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffffff;
+  }
+  .about-details button {
+    margin-top: 0rem;
+    background: #ffffff;
+    width: 219px;
+    height: 53px;
+  }
+  .about-img {
+    width: 79%;
+    height: 100%;
+  }
+  
+      
+  }

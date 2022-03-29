@@ -1,0 +1,37 @@
+.s-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+  width: 271px !important;
+  height: 181px;
+  box-shadow: 0px 0px 37px -2px rgba(17, 24, 39, 0.05);
+  border-radius: 4px;
+}
+.card-logo {
+  position: static;
+  width: 40px;
+  height: 40px;
+  left: 115.5px;
+  top: 38px;
+}
+.s-card-title {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+
+}
+.blue-card {
+  background: var(--primary);
+  color: #ffffff;
+}
+
+.white-card {
+  color: var(--primary);
+  background: #ffffff;
+}

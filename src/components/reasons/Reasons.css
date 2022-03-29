@@ -1,0 +1,19 @@
+.Card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center; 
+    flex-wrap: wrap;
+    /* padding: 0 0 3rem 0; */
+}
+
+
+@media screen and (max-width: 992px){
+    /* .Card-container{
+        flex-direction: column;
+    } */
+    .Card-body{
+        margin: 1.5rem 0px;
+    }
+
+}

@@ -1,0 +1,20 @@
+nav{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+li.nav-item{
+    padding: 0 .6rem ;
+}
+.navbar-nav a {
+    color: rgb(36, 150, 202);
+    /* font-weight:600; */
+    transition: 0.2s;
+}
+.navbar-nav a:hover{
+
+    color: rgb(235, 157, 13) !important;
+    
+}
+.active{
+    color: rgb(235, 157, 13) !important;
+
+}
